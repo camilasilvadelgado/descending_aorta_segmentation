@@ -1,0 +1,15 @@
+# Portable environment (Linux / macOS / Windows). pip picks the right PyTorch
+# build for your platform (CUDA on Linux, MPS/CPU on macOS).
+# Exact versions used for the thesis: see totalseg_env_lock_linux.yml
+name: totalseg_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - TotalSegmentator==2.13.0
+      - nibabel
+      - scipy
+      - numpy
+      - pandas

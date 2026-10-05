@@ -1,0 +1,15 @@
+# Patient data and outputs — never commit
+CT_scans/*
+!CT_scans/.gitkeep
+intermediate_files/
+final_masks/
+logs/
+*.nii
+*.nii.gz
+*.dcm
+*.csv
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
